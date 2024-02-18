@@ -19,7 +19,6 @@
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    
 }
 
 .show {
@@ -36,9 +35,9 @@
     gap: 20px;
 }
 
-.item:nth-child(1){
+/* .item:nth-child(1){
     transition-delay: 200ms;
-}
+} */
 
 .item:nth-child(2){
     transition-delay: 400ms;
@@ -50,6 +49,11 @@
 
 .item:nth-child(4){
     transition-delay: 600ms;
+}
+
+.ww:hover {
+    transition: 0.8s ;
+    margin-bottom: 50px;
 }
 
 
