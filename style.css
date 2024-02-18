@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Comic';
+    src: url(COMIC.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic';
+    background-color: black;
+    color: white;
+}
+
+.section {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    
+}
+
+.show {
+    text-align: center;
+    opacity: 1;
+    transition: 2s ease;
+    transform: translateX(0);
+    filter: blur(0);
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item:nth-child(1){
+    transition-delay: 200ms;
+}
+
+.item:nth-child(2){
+    transition-delay: 400ms;
+}
+
+.item:nth-child(3){
+    transition-delay: 500ms
+}
+
+.item:nth-child(4){
+    transition-delay: 600ms;
+}
+
+
+
+
